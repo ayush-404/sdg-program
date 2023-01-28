@@ -1,11 +1,7 @@
 import './InsList.css'
 
 const InsList = () => {
-
-  const listItemBorderStyle = {
-
-  }
-
+  
   const content = [
     {
       imgSrc: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/51/RTI_International_%28logo%29.svg/330px-RTI_International_%28logo%29.svg.png',
@@ -30,10 +26,13 @@ const InsList = () => {
       info: 'LoveYourself was founded by Dr. Ronivin Garcia Pagtakhan, an organization that has \
       risen to become one of the leading organizations in HIV awareness, testing, and \
       treatment in the Philippines.'
+    },
+    {
+      imgSrc: ''
     }
   ]
-  return <div>
 
+  return <div>
     <h2>Possible organizations that we may partner with</h2>
     <ul style={{listStyle: 'none', display: 'block', paddingRight: '2.5rem'}}>
       {content.map(c => <li className='listItem'>

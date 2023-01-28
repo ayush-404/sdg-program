@@ -5,6 +5,7 @@ import Header from './Header';
 import Proposal from './Proposal'
 import Home from './Home'
 import InsList from './InsList';
+import About from './About';
 //----------------------
 
 import { useState } from 'react'
@@ -19,6 +20,7 @@ function App() {
 
       {href==="#proposal"? <Proposal/>: <></>}
       {href==='none' || href==="#default"? <Home/>: <></>}
+      {href==="#about"? <About/>: <></>}
       {href==='#ins' ? <InsList/>: <></>}
     </div>
   );

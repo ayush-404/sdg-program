@@ -1,6 +1,7 @@
 import './InsList.css'
 
-var propText = require('./snip.htm')
+var propText = require('./snip.htm');
+
 const Proposal = () => {
   return <div>
     <h1 style={{textAlign: 'center', color: 'black'}}>
